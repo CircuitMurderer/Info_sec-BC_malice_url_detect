@@ -1,0 +1,10 @@
+{
+    "good_numbe":1,
+    "good_sites":[
+        "https://www.baidu.com/"
+    ],
+    "bad_number":1,
+    "bad_sites":[
+        "http://127.0.0.1:8080"
+    ]
+}

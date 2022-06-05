@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="" ></script>
+    <script>
+        eval('alert("ok")')
+        eval('alert(9999)')
+        setTimeout('alert("good")', 100)
+        setInterval('alert("nice")', 100)
+        document.write('<scr' + 'ipt>' + 'ale' + 'rt(3)' + '</scr' + 'ipt>')
+        document.writeln('\n')
+        scr = document.getElementsByTagName('script')[2]
+        scr.setAttribute('src', 'baidu.com')
+        scr.src = 'www.baidu.com'
+        window.open('www.cc.com')
+        if (navigator.userAgent.indexOf("Mozilla") !== -1) {
+            console.log('null')
+        }
+
+        k = escape('2333')
+        k = unescape(k)
+
+        document.body.onload = () => {
+            console.log(9)
+        }
+        scr.innerHTML = ''
+        location.href = 'www.qiandu.com'
+    </script>
+    <script src=""></script>
+</head>
+<body onload="alert(1)">
+
+</body>
+</html>
